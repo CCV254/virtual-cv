@@ -371,6 +371,17 @@ main {
     color: var(--colour-white);
 }
 
+.button-download {
+    background-color: var(--colour-secondary);
+    color: var(--colour-white);
+}
+
+.button-download:hover,
+.button-download:focus {
+    background-color: var(--colour-secondary-dark);
+    color: var(--colour-white);
+}
+
 .hero-panel {
     padding: 1.5rem;
 
@@ -383,6 +394,27 @@ main {
 
     border-radius: var(--border-radius-large);
     box-shadow: var(--shadow-medium);
+}
+
+.profile-photo-frame {
+    width: 155px;
+    aspect-ratio: 1;
+    margin: 0 auto 1.5rem;
+
+    overflow: hidden;
+
+    border: 4px solid rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 20%;
 }
 
 .hero-panel .panel-label {
