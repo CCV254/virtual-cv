@@ -14,9 +14,15 @@
         content="The professional portfolio and Virtual CV of Celumusa Vincent Mkhatshwa, an Information Technology graduate and Mathematics educator."
     >
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="images/favicon.ico"
+    >
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
 
     <title>Celumusa Vincent Mkhatshwa | Virtual CV</title>
 </head>
@@ -36,10 +42,51 @@
                 aria-label="Celumusa Mkhatshwa home"
             >
                 <span class="brand-mark">CM</span>
-                <span class="brand-name">Celumusa Mkhatshwa</span>
+
+                <span class="brand-name">
+                    Celumusa Mkhatshwa
+                </span>
             </a>
 
-            <nav aria-label="Main navigation">
+            <div class="header-controls">
+
+                <button
+                    class="theme-toggle control-button"
+                    type="button"
+                    aria-label="Switch to dark theme"
+                    aria-pressed="false"
+                >
+                    <span
+                        class="theme-icon"
+                        aria-hidden="true"
+                    >
+                        ☾
+                    </span>
+
+                    <span class="theme-text">
+                        Dark
+                    </span>
+                </button>
+
+                <button
+                    class="menu-toggle control-button"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-controls="primary-navigation"
+                    aria-expanded="false"
+                >
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+
+            </div>
+
+            <nav
+                id="primary-navigation"
+                class="primary-navigation"
+                aria-label="Main navigation"
+            >
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#education">Education</a>
@@ -59,6 +106,7 @@
             <div class="hero-grid">
 
                 <div class="hero-content">
+
                     <p class="eyebrow">
                         Welcome to my professional portfolio
                     </p>
@@ -80,62 +128,88 @@
                     </p>
 
                     <div class="hero-actions">
-                        <a class="button button-primary" href="#projects">
+
+                        <a
+                            class="button button-primary"
+                            href="#projects"
+                        >
                             View My Projects
                         </a>
 
-                    <a class="button button-secondary" href="#contact">
-                        Contact Me
-                    </a>
+                        <a
+                            class="button button-secondary"
+                            href="#contact"
+                        >
+                            Contact Me
+                        </a>
 
-                    <a
-                        class="button button-download"
-                        href="documents/Celumusa_Vincent_Mkhatshwa_CV.pdf"
-                        download
-                    >
-                        Download CV
-                    </a>
-            </div>
+                        <a
+                            class="button button-download"
+                            href="documents/Celumusa_Vincent_Mkhatshwa_CV.pdf"
+                            download
+                        >
+                            Download CV
+                        </a>
 
-            <aside
-                class="hero-panel"
-                aria-label="Professional profile highlights"
-            >
-                <div class="profile-photo-frame">
-                    <img
-                        class="profile-photo"
-                        src="images/celumusa-profile-photo.png"
-                        alt="Professional portrait of Celumusa Vincent Mkhatshwa"
-                        width="300"
-                        height="300"
-                    >
-                    
+                    </div>
+
                 </div>
 
-                <p class="panel-label">Profile Highlights</p>
+                <aside
+                    class="hero-panel"
+                    aria-label="Professional profile highlights"
+                >
+
+                    <div class="profile-photo-frame">
+                        <img
+                            class="profile-photo"
+                            src="images/celumusa-profile-photo.png"
+                            alt="Professional portrait of Celumusa Vincent Mkhatshwa"
+                            width="300"
+                            height="300"
+                        >
+                    </div>
+
+                    <p class="panel-label">
+                        Profile Highlights
+                    </p>
+
                     <div class="stats-grid">
 
                         <article class="stat-card">
                             <strong>7+</strong>
-                            <span>Years of professional experience</span>
+
+                            <span>
+                                Years of professional experience
+                            </span>
                         </article>
 
                         <article class="stat-card">
                             <strong>18</strong>
-                            <span>Recorded academic distinctions</span>
+
+                            <span>
+                                Recorded academic distinctions
+                            </span>
                         </article>
 
                         <article class="stat-card">
                             <strong>77.70%</strong>
-                            <span>Available academic-record average</span>
+
+                            <span>
+                                Available academic-record average
+                            </span>
                         </article>
 
                         <article class="stat-card">
                             <strong>5</strong>
-                            <span>Programming and database languages</span>
+
+                            <span>
+                                Programming and database languages
+                            </span>
                         </article>
 
                     </div>
+
                 </aside>
 
             </div>
@@ -144,18 +218,24 @@
         <section id="about" class="section">
 
             <div class="section-header">
-                <p class="section-label">Professional Profile</p>
+
+                <p class="section-label">
+                    Professional Profile
+                </p>
+
                 <h2>About Me</h2>
 
                 <p>
                     A multidisciplinary professional combining Information
                     Technology, education, communication and leadership.
                 </p>
+
             </div>
 
             <div class="about-grid">
 
                 <article class="content-card">
+
                     <h3>My Background</h3>
 
                     <p>
@@ -174,18 +254,33 @@
                         I enjoy developing practical solutions, analysing
                         problems and explaining complex concepts clearly.
                     </p>
+
                 </article>
 
                 <article class="content-card">
+
                     <h3>Career Direction</h3>
 
                     <ul class="check-list">
                         <li>Software and application development</li>
-                        <li>Data analytics and artificial intelligence</li>
-                        <li>Database and information systems</li>
-                        <li>Business and systems analysis</li>
-                        <li>Educational technology</li>
+
+                        <li>
+                            Data analytics and artificial intelligence
+                        </li>
+
+                        <li>
+                            Database and information systems
+                        </li>
+
+                        <li>
+                            Business and systems analysis
+                        </li>
+
+                        <li>
+                            Educational technology
+                        </li>
                     </ul>
+
                 </article>
 
             </div>
@@ -194,19 +289,27 @@
         <section id="education" class="section">
 
             <div class="section-header">
-                <p class="section-label">Academic Background</p>
+
+                <p class="section-label">
+                    Academic Background
+                </p>
+
                 <h2>Education</h2>
 
                 <p>
                     Qualifications that combine technology, Mathematics,
                     Science and professional communication.
                 </p>
+
             </div>
 
             <div class="education-grid">
 
                 <article class="content-card education-card">
-                    <p class="card-date">Completed 2026</p>
+
+                    <p class="card-date">
+                        Completed 2026
+                    </p>
 
                     <h3>
                         Bachelor of Science in Information Technology
@@ -222,12 +325,18 @@
                         networks, data analytics, information security,
                         operating systems and systems analysis.
                     </p>
+
                 </article>
 
                 <article class="content-card education-card">
-                    <p class="card-date">Completed 2018</p>
 
-                    <h3>Bachelor of Education</h3>
+                    <p class="card-date">
+                        Completed 2018
+                    </p>
+
+                    <h3>
+                        Bachelor of Education
+                    </h3>
 
                     <p class="institution">
                         University of the Witwatersrand
@@ -237,12 +346,18 @@
                         Majors in Mathematics, Physical Sciences and
                         Natural Sciences.
                     </p>
+
                 </article>
 
                 <article class="content-card education-card">
-                    <p class="card-date">Completed 2020</p>
 
-                    <h3>120-Hour TEFL Certificate</h3>
+                    <p class="card-date">
+                        Completed 2020
+                    </p>
+
+                    <h3>
+                        120-Hour TEFL Certificate
+                    </h3>
 
                     <p class="institution">
                         University of the Witwatersrand
@@ -252,6 +367,7 @@
                         Professional training in teaching English as a
                         foreign language, including observed teaching.
                     </p>
+
                 </article>
 
             </div>
@@ -260,18 +376,24 @@
         <section id="skills" class="section">
 
             <div class="section-header">
-                <p class="section-label">Capabilities</p>
+
+                <p class="section-label">
+                    Capabilities
+                </p>
+
                 <h2>Skills</h2>
 
                 <p>
                     Technical and professional skills developed through
                     academic study and workplace experience.
                 </p>
+
             </div>
 
             <div class="skills-grid">
 
                 <article class="content-card skill-card">
+
                     <h3>Programming</h3>
 
                     <ul>
@@ -281,9 +403,11 @@
                         <li>C++</li>
                         <li>SQL</li>
                     </ul>
+
                 </article>
 
                 <article class="content-card skill-card">
+
                     <h3>Software Development</h3>
 
                     <ul>
@@ -293,9 +417,11 @@
                         <li>File Handling</li>
                         <li>Application Design</li>
                     </ul>
+
                 </article>
 
                 <article class="content-card skill-card">
+
                     <h3>Data and Databases</h3>
 
                     <ul>
@@ -305,9 +431,11 @@
                         <li>Data Analytics</li>
                         <li>Statistical Analysis</li>
                     </ul>
+
                 </article>
 
                 <article class="content-card skill-card">
+
                     <h3>Systems and Security</h3>
 
                     <ul>
@@ -317,9 +445,11 @@
                         <li>Operating Systems</li>
                         <li>Decision Support Systems</li>
                     </ul>
+
                 </article>
 
                 <article class="content-card skill-card">
+
                     <h3>Professional Skills</h3>
 
                     <ul>
@@ -329,9 +459,11 @@
                         <li>Team collaboration</li>
                         <li>Leadership</li>
                     </ul>
+
                 </article>
 
                 <article class="content-card skill-card">
+
                     <h3>Languages</h3>
 
                     <ul>
@@ -341,6 +473,7 @@
                         <li>isiXhosa</li>
                         <li>Sesotho</li>
                     </ul>
+
                 </article>
 
             </div>
@@ -349,21 +482,31 @@
         <section id="projects" class="section">
 
             <div class="section-header">
-                <p class="section-label">Practical Work</p>
+
+                <p class="section-label">
+                    Practical Work
+                </p>
+
                 <h2>Selected Projects</h2>
 
                 <p>
                     Academic projects demonstrating programming, database
                     design, systems analysis and application development.
                 </p>
+
             </div>
 
             <div class="projects-grid">
 
                 <article class="content-card project-card">
-                    <div class="project-number">01</div>
 
-                    <h3>Burns Beach Physio Management System</h3>
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Burns Beach Physio Management System
+                    </h3>
 
                     <p>
                         A Windows and web-based system designed to support
@@ -380,12 +523,18 @@
                     <p class="project-status">
                         Repository and demonstration details will be added.
                     </p>
+
                 </article>
 
                 <article class="content-card project-card">
-                    <div class="project-number">02</div>
 
-                    <h3>Tiny College Database</h3>
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Tiny College Database
+                    </h3>
 
                     <p>
                         A relational MySQL database containing students,
@@ -401,12 +550,18 @@
                     <p class="project-status">
                         Repository and demonstration details will be added.
                     </p>
+
                 </article>
 
                 <article class="content-card project-card">
-                    <div class="project-number">03</div>
 
-                    <h3>Java Programming and Data Structures</h3>
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Java Programming and Data Structures
+                    </h3>
 
                     <p>
                         A collection of Java applications demonstrating
@@ -424,6 +579,7 @@
                     <p class="project-status">
                         Repository and demonstration details will be added.
                     </p>
+
                 </article>
 
             </div>
@@ -432,13 +588,18 @@
         <section id="experience" class="section">
 
             <div class="section-header">
-                <p class="section-label">Work History</p>
+
+                <p class="section-label">
+                    Work History
+                </p>
+
                 <h2>Professional Experience</h2>
 
                 <p>
                     Experience demonstrating communication, leadership,
                     organisation and the ability to solve complex problems.
                 </p>
+
             </div>
 
             <div class="experience-list">
@@ -446,6 +607,7 @@
                 <article class="content-card experience-card">
 
                     <div class="experience-heading">
+
                         <div>
                             <h3>Educator</h3>
 
@@ -454,7 +616,10 @@
                             </p>
                         </div>
 
-                        <p class="card-date">2019–Present</p>
+                        <p class="card-date">
+                            2019–Present
+                        </p>
+
                     </div>
 
                     <ul>
@@ -483,13 +648,17 @@
                             district-level activities through JPSFA.
                         </li>
                     </ul>
+
                 </article>
 
                 <article class="content-card experience-card">
 
                     <div class="experience-heading">
+
                         <div>
-                            <h3>Temporary Mathematics Educator</h3>
+                            <h3>
+                                Temporary Mathematics Educator
+                            </h3>
 
                             <p class="institution">
                                 Hillview High School
@@ -499,12 +668,14 @@
                         <p class="card-date">
                             January–February 2019
                         </p>
+
                     </div>
 
                     <p>
                         Taught Mathematics and supported learners with
                         foundational concepts and structured problem-solving.
                     </p>
+
                 </article>
 
             </div>
@@ -513,13 +684,18 @@
         <section id="certifications" class="section">
 
             <div class="section-header">
-                <p class="section-label">Professional Development</p>
+
+                <p class="section-label">
+                    Professional Development
+                </p>
+
                 <h2>Certifications</h2>
 
                 <p>
                     Additional training in education, technology, leadership
                     and sport.
                 </p>
+
             </div>
 
             <div class="certifications-grid">
@@ -531,17 +707,26 @@
 
                 <article class="certification-card">
                     <span>2025</span>
-                    <h3>Project-Based Learning Certification</h3>
+
+                    <h3>
+                        Project-Based Learning Certification
+                    </h3>
                 </article>
 
                 <article class="certification-card">
                     <span>2024</span>
-                    <h3>Cubroid Coding and Robotics</h3>
+
+                    <h3>
+                        Cubroid Coding and Robotics
+                    </h3>
                 </article>
 
                 <article class="certification-card">
                     <span>2024</span>
-                    <h3>Positive Behaviour Management</h3>
+
+                    <h3>
+                        Positive Behaviour Management
+                    </h3>
                 </article>
 
                 <article class="certification-card">
@@ -562,7 +747,11 @@
             <div class="contact-layout">
 
                 <div class="contact-introduction">
-                    <p class="section-label">Get in Touch</p>
+
+                    <p class="section-label">
+                        Get in Touch
+                    </p>
+
                     <h2>Contact Me</h2>
 
                     <p>
@@ -571,38 +760,52 @@
                         information systems, business analysis and
                         educational technology.
                     </p>
+
                 </div>
 
                 <address class="contact-card">
 
                     <div class="contact-item">
+
                         <span>Location</span>
-                        <p>Johannesburg, South Africa</p>
+
+                        <p>
+                            Johannesburg, South Africa
+                        </p>
+
                     </div>
 
                     <div class="contact-item">
+
                         <span>Email</span>
 
                         <a href="mailto:celumusa99@gmail.com">
                             celumusa99@gmail.com
                         </a>
+
                     </div>
 
                     <div class="contact-item">
+
                         <span>Phone</span>
 
                         <a href="tel:+27744071826">
                             +27 74 407 1826
                         </a>
+
                     </div>
 
                     <div class="contact-item">
-                        <span>Professional Profiles</span>
+
+                        <span>
+                            Professional Profiles
+                        </span>
 
                         <p>
                             GitHub and LinkedIn links will be added before
                             the final submission.
                         </p>
+
                     </div>
 
                 </address>
@@ -612,11 +815,22 @@
 
     </main>
 
+    <button
+        class="back-to-top"
+        type="button"
+        aria-label="Back to top"
+        title="Back to top"
+    >
+        ↑
+    </button>
+
     <footer class="site-footer">
+
         <p>
             &copy; 2026 Celumusa Vincent Mkhatshwa.
             All rights reserved.
         </p>
+
     </footer>
 
 </body>
