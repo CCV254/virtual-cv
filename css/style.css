@@ -1,0 +1,338 @@
+/* ========================================
+   COLOUR SYSTEM
+======================================== */
+
+:root {
+    --colour-primary: #17365d;
+    --colour-primary-dark: #102743;
+    --colour-secondary: #1f6f78;
+    --colour-secondary-dark: #16535a;
+
+    --colour-background: #f4f7f8;
+    --colour-surface: #ffffff;
+    --colour-text: #222222;
+    --colour-muted: #5f6975;
+    --colour-border: #d7e6ea;
+
+    --colour-white: #ffffff;
+
+    --shadow-small: 0 4px 12px rgba(23, 54, 93, 0.08);
+    --shadow-medium: 0 12px 30px rgba(23, 54, 93, 0.12);
+
+    --border-radius-small: 8px;
+    --border-radius-medium: 14px;
+
+    --content-width: 1120px;
+}
+
+
+/* ========================================
+   BROWSER RESET
+======================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 1.25rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+
+/* ========================================
+   GENERAL PAGE STYLING
+======================================== */
+
+body {
+    min-height: 100vh;
+    background-color: var(--colour-background);
+    color: var(--colour-text);
+    font-family:
+        "Segoe UI",
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+a {
+    color: var(--colour-secondary);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--colour-secondary-dark);
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--colour-primary);
+    line-height: 1.25;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.3rem, 6vw, 4.6rem);
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1.25rem;
+}
+
+p + p {
+    margin-top: 1rem;
+}
+
+
+/* ========================================
+   ACCESSIBILITY
+======================================== */
+
+body > a:first-child {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    z-index: 1000;
+
+    padding: 0.75rem 1rem;
+
+    background-color: var(--colour-white);
+    color: var(--colour-primary);
+
+    border: 2px solid var(--colour-secondary);
+    border-radius: var(--border-radius-small);
+}
+
+body > a:first-child:focus {
+    top: 1rem;
+}
+
+
+/* ========================================
+   HEADER AND NAVIGATION
+======================================== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: var(--colour-primary);
+    box-shadow: var(--shadow-small);
+}
+
+nav {
+    width: min(100% - 2rem, var(--content-width));
+    margin-inline: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1.25rem;
+
+    padding-block: 1rem;
+}
+
+nav a {
+    padding: 0.35rem 0.2rem;
+
+    color: var(--colour-white);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--colour-white);
+    text-decoration-color: var(--colour-secondary);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
+
+/* ========================================
+   MAIN CONTENT
+======================================== */
+
+main {
+    width: min(100% - 2rem, var(--content-width));
+    margin-inline: auto;
+}
+
+section {
+    padding-block: 4.5rem;
+    scroll-margin-top: 5rem;
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid var(--colour-border);
+}
+
+
+/* ========================================
+   HOME SECTION
+======================================== */
+
+#home {
+    min-height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home > p:first-child {
+    margin-bottom: 0.75rem;
+
+    color: var(--colour-secondary);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+#home h2 {
+    max-width: 850px;
+    margin-bottom: 1.5rem;
+
+    color: var(--colour-secondary);
+}
+
+#home > p:last-child {
+    max-width: 760px;
+
+    color: var(--colour-muted);
+    font-size: 1.15rem;
+}
+
+
+/* ========================================
+   CONTENT CARDS
+======================================== */
+
+article {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+
+    background-color: var(--colour-surface);
+
+    border: 1px solid var(--colour-border);
+    border-radius: var(--border-radius-medium);
+
+    box-shadow: var(--shadow-small);
+}
+
+article:hover {
+    box-shadow: var(--shadow-medium);
+}
+
+article p {
+    color: var(--colour-muted);
+}
+
+article ul {
+    margin-top: 1rem;
+}
+
+li + li {
+    margin-top: 0.45rem;
+}
+
+
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+address {
+    padding: 1.5rem;
+
+    background-color: var(--colour-surface);
+
+    border: 1px solid var(--colour-border);
+    border-radius: var(--border-radius-medium);
+
+    box-shadow: var(--shadow-small);
+
+    font-style: normal;
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+footer {
+    padding: 2rem 1rem;
+
+    background-color: var(--colour-primary-dark);
+    color: var(--colour-white);
+
+    text-align: center;
+}
+
+
+/* ========================================
+   RESPONSIVE DESIGN
+======================================== */
+
+@media (max-width: 700px) {
+    nav {
+        justify-content: flex-start;
+        gap: 0.35rem 1rem;
+
+        padding-block: 0.75rem;
+    }
+
+    nav a {
+        font-size: 0.88rem;
+    }
+
+    section {
+        padding-block: 3.5rem;
+    }
+
+    #home {
+        min-height: 65vh;
+    }
+
+    article,
+    address {
+        padding: 1.25rem;
+    }
+}
