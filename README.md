@@ -1,50 +1,96 @@
 # Celumusa Vincent Mkhatshwa – Virtual CV
 
-## Project Overview
+A responsive professional portfolio website presenting my education, technical skills, academic projects, professional experience, certifications and contact information.
 
-This repository contains my professional Virtual CV and personal portfolio website.
+## Live Website
 
-The website will showcase my:
+[View the live Virtual CV](https://ccv254.github.io/virtual-cv/)
 
-- Professional profile
-- Education and academic achievements
-- Technical and professional skills
-- Academic projects
-- Work experience
-- Certifications
-- Leadership experience
-- GitHub projects
-- Contact information
+## Website Preview
 
-## Technologies
+![Celumusa Vincent Mkhatshwa Virtual CV preview](images/virtual-cv-preview.png)
 
-The Virtual CV will be developed using:
+## About the Project
+
+This Virtual CV was developed as a professional online portfolio to complement my traditional CV, GitHub profile and LinkedIn profile.
+
+The website presents my combined background as an Information Technology graduate and experienced Mathematics educator. It highlights my technical capabilities, academic achievements, professional experience, projects and career interests.
+
+## Main Features
+
+- Responsive desktop, tablet and mobile design
+- Professional light and dark themes
+- Saved theme preference
+- Mobile navigation menu
+- Active navigation highlighting
+- Smooth section navigation
+- Professional profile photograph
+- Downloadable PDF CV
+- Back-to-top button
+- GitHub and LinkedIn profile links
+- Accessible keyboard navigation
+- Reduced-motion accessibility support
+- Responsive project, skills and education cards
+
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Git and GitHub
+- Git
+- GitHub
+- GitHub Desktop
+- Visual Studio Code
 - GitHub Pages
 
-## Planned Features
+## Website Sections
 
-- Responsive desktop, tablet and mobile design
-- Professional navigation menu
-- About Me section
-- Education and skills sections
-- Project cards with GitHub links
-- Downloadable CV
-- Light and dark theme
-- Contact section
-- Accessible and user-friendly navigation
+The Virtual CV contains the following sections:
 
-## Development Status
+1. Home
+2. About Me
+3. Education
+4. Skills
+5. Selected Projects
+6. Professional Experience
+7. Certifications
+8. Contact Information
 
-The Virtual CV is currently under development.
+## Featured Project
 
-## Author
+### Professional Virtual CV
 
-**Celumusa Vincent Mkhatshwa**
+The website itself demonstrates:
 
-Information Technology Graduate and Mathematics Educator  
-Johannesburg, South Africa
+- Semantic HTML structure
+- Responsive CSS Grid and Flexbox layouts
+- CSS custom properties
+- Light and dark themes
+- JavaScript event handling
+- Local storage
+- Mobile navigation
+- Active-section tracking
+- Accessible controls
+- GitHub Pages deployment
+
+## Project Structure
+
+```text
+virtual-cv/
+│
+├── css/
+│   └── style.css
+│
+├── documents/
+│   └── Celumusa_Vincent_Mkhatshwa_CV.pdf
+│
+├── images/
+│   ├── celumusa-profile-photo.png
+│   ├── favicon.ico
+│   └── virtual-cv-preview.png
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+└── README.md
