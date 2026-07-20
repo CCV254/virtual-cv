@@ -94,3 +94,62 @@ virtual-cv/
 │
 ├── index.html
 └── README.md
+```
+
+## Running the Website Locally
+
+1. Download or clone the repository.
+2. Open the `virtual-cv` project folder.
+3. Open `index.html` in a web browser.
+
+Alternatively, clone the repository using Git:
+
+```bash
+git clone https://github.com/CCV254/virtual-cv.git
+```
+
+Then open `index.html` inside the downloaded `virtual-cv` folder.
+
+## Responsive Design
+
+The website was tested on:
+
+- Desktop screens
+- Tablet-sized screens
+- Mobile-phone screens
+- Microsoft Edge
+- Google Chrome
+
+The layout adjusts automatically to different screen sizes using CSS media queries.
+
+## Accessibility
+
+Accessibility features include:
+
+- Semantic HTML elements
+- Descriptive alternative text
+- Keyboard-visible focus indicators
+- Skip-to-content link
+- Accessible mobile-menu and theme controls
+- ARIA labels and states
+- Reduced-motion support
+- Sufficient colour contrast
+- Responsive text and controls
+
+## Professional Profiles
+
+- [GitHub Profile](https://github.com/CCV254)
+- [LinkedIn Profile](https://www.linkedin.com/in/celumusa-mkhatshwa-08054617b/)
+- [Live Virtual CV](https://ccv254.github.io/virtual-cv/)
+
+## Contact
+
+**Celumusa Vincent Mkhatshwa**
+
+Johannesburg, South Africa
+
+Email: [celumusa99@gmail.com](mailto:celumusa99@gmail.com)
+
+## Author
+
+Developed by **Celumusa Vincent Mkhatshwa**, an Information Technology graduate and experienced Mathematics educator interested in software development, data, artificial intelligence, information systems and educational technology.
