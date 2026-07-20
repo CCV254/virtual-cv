@@ -1151,3 +1151,103 @@ html[data-theme="dark"] .hero-panel {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* ========================================
+   PROFESSIONAL AND PROJECT LINKS
+======================================== */
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+
+    margin-top: 0.75rem;
+}
+
+.social-link,
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+
+    padding: 0.65rem 0.9rem;
+
+    background-color: var(--colour-surface-soft);
+    color: var(--colour-primary);
+
+    border: 1px solid var(--colour-border);
+    border-radius: var(--border-radius-small);
+
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    transition:
+        background-color 180ms ease,
+        color 180ms ease,
+        border-color 180ms ease,
+        transform 180ms ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible,
+.project-link:hover,
+.project-link:focus-visible {
+    background-color: var(--colour-secondary);
+    color: var(--colour-white);
+
+    border-color: var(--colour-secondary);
+
+    transform: translateY(-2px);
+}
+
+.project-link {
+    align-self: flex-start;
+
+    margin-top: auto;
+    padding-top: 0.65rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+
+    margin-top: 0.75rem;
+}
+
+.footer-links a {
+    color: var(--colour-white);
+    font-weight: 600;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+    color: var(--colour-secondary);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+html[data-theme="dark"] .social-link,
+html[data-theme="dark"] .project-link {
+    color: #d8ebff;
+}
+
+html[data-theme="dark"] .social-link:hover,
+html[data-theme="dark"] .social-link:focus-visible,
+html[data-theme="dark"] .project-link:hover,
+html[data-theme="dark"] .project-link:focus-visible {
+    background-color: var(--colour-secondary);
+    color: #07151b;
+}
+
+@media (max-width: 480px) {
+    .social-links {
+        flex-direction: column;
+    }
+
+    .social-link {
+        width: 100%;
+    }
+}
