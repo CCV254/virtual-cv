@@ -16,7 +16,7 @@ This Virtual CV was developed as a professional online portfolio to complement m
 
 I am a final-year Bachelor of Science in Information Technology student at North-West University and an experienced Mathematics educator. The portfolio highlights my technical skills, academic achievements, practical projects, professional experience and career interests.
 
-According to my current academic record, I have completed 328 of the required 392 qualification credits, achieved a cumulative GPA of 78.70% and recorded 22 distinctions across my studies. :contentReference[oaicite:0]{index=0}
+According to my current academic record, I have completed 328 of the required 392 qualification credits, achieved a cumulative GPA of 78.70% and recorded 22 distinctions across my studies.
 
 ## Main Features
 
@@ -73,7 +73,7 @@ Technologies and concepts:
 - Systems analysis
 - Data reporting
 
-The project includes complaint registration, allocation, tracking, service management and administrative reporting functionality. :contentReference[oaicite:1]{index=1}
+The project includes complaint registration, allocation, tracking, service management and administrative reporting functionality.
 
 ### 2. CMA Fitness Management Database
 
@@ -88,7 +88,7 @@ Technologies and concepts:
 - Database views
 - Queries and reporting
 
-The system was designed to replace manual files and spreadsheets with a centralised operational database for managing gym activities. :contentReference[oaicite:2]{index=2}
+The system was designed to replace manual files and spreadsheets with a centralised operational database for managing gym activities.
 
 ### 3. Burns Beach Physio Management System
 
