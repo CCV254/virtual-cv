@@ -154,6 +154,22 @@ The Virtual CV website demonstrates:
 - Accessible controls
 - GitHub Pages deployment
 
+## Professional Certifications
+
+### Information Technology
+
+- **Introduction to Cloud Security** — Simplilearn SkillUp (2 May 2025; introductory course completion)
+- **Introduction to Cyber Security** — Simplilearn SkillUp (1 May 2025; introductory course completion)
+
+### Education, Leadership and Sport
+
+- SAFA Level 2 Referee (2025)
+- Project-Based Learning Certification (2025)
+- Cubroid Coding and Robotics (2024)
+- Positive Behaviour Management (2024)
+- JPSFA Coaching Course (2023)
+- 120-Hour TEFL Certificate — University of the Witwatersrand (2020)
+
 ## Academic Profile
 
 **Qualification:** Bachelor of Science in Information Technology  
