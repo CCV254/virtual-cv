@@ -64,7 +64,7 @@ The portfolio now leads with five recent projects and practicals.
 
 | Project | Focus | My work / scope |
 | --- | --- | --- |
-| PukParking | Full-stack campus parking navigation | Home, About Us, Parking Statistics, responsive UI, navigation, dark mode, integration assistance and documentation |
+| [PukParking](https://pukparking.netlify.app/home) ([source](https://github.com/PukParking/PukParking)) | Full-stack campus parking navigation | Home, About Us, Parking Statistics, responsive UI, navigation, dark mode, integration assistance and documentation |
 | Uber/Bolt Mobility Intelligence | Oracle SQL, analysis of 50,000 trips, Power BI | SQL-supported analysis and interpretation of **supplied** Power BI visuals; group report identified a 33.34% cancellation rate |
 | MPBC Bicycle Inventory | Excel QM and decision support | EOQ, reorder point, safety stock and stock-cost analysis |
 | AI Classification and Clustering | Python, scikit-learn, Teachable Machine | Three-class image classification and K-Means clustering with model evaluation |
