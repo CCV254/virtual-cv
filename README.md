@@ -14,7 +14,7 @@ A responsive professional portfolio website presenting my education, technical s
 
 This Virtual CV was developed as a professional online portfolio to complement my traditional CV, GitHub profile and LinkedIn profile.
 
-I am a final-year Bachelor of Science in Information Technology student at North-West University and an experienced Mathematics educator. The portfolio highlights my technical skills, academic achievements, practical projects, professional experience and career interests.
+I am a final-year Bachelor of Science in Information Technology student at North-West University and an experienced Mathematics educator. The portfolio highlights my technical skills, academic achievements, practical projects, professional experience and career interests, including software development, Power BI-supported business intelligence, database engineering, information security, artificial intelligence and Linux systems.
 
 According to my current academic record, I have completed 328 of the required 392 qualification credits, achieved a cumulative GPA of 78.70% and recorded 22 distinctions across my studies.
 
@@ -58,7 +58,23 @@ The Virtual CV contains the following sections:
 7. Certifications
 8. Contact Information
 
-## Selected Academic Projects
+## Featured 2026 Projects
+
+The portfolio now leads with five recent projects and practicals.
+
+| Project | Focus | My work / scope |
+| --- | --- | --- |
+| PukParking | Full-stack campus parking navigation | Home, About Us, Parking Statistics, responsive UI, navigation, dark mode, integration assistance and documentation |
+| Uber/Bolt Mobility Intelligence | Oracle SQL, analysis of 50,000 trips, Power BI | SQL-supported analysis and interpretation of **supplied** Power BI visuals; group report identified a 33.34% cancellation rate |
+| MPBC Bicycle Inventory | Excel QM and decision support | EOQ, reorder point, safety stock and stock-cost analysis |
+| AI Classification and Clustering | Python, scikit-learn, Teachable Machine | Three-class image classification and K-Means clustering with model evaluation |
+| Ubuntu Linux Practical | VirtualBox, Ubuntu and Bash | VM setup, shared folders, terminal utilities and documented execution |
+
+Power BI is presented as **visual analysis and interpretation** because the project documentation describes the charts as supplied; it does not establish authorship of the dashboards.
+
+## Earlier Academic and Personal Projects
+
+
 
 ### 1. Municipal Complaint Management System
 
